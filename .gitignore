@@ -1,0 +1,37 @@
+# Virtual Environment
+venv/
+env/
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# DICOM files (sensitive - never commit!)
+*.dcm
+*.dicom
+*.dcm.gz
+samples/*.dcm
+samples/*.dicom
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Distribution
+build/
+dist/
+*.egg-info/
+
